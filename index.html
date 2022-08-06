@@ -51,10 +51,10 @@
           <div class="hero-left">
             <ul class="media-list list">
               <li lang="en" class="media-link">
-                <a href="" class="media-link-list link">Instagram</a>
+                <a href="" class="media-link-footer link">Instagram</a>
               </li>
               <li lang="en" class="media-link">
-                <a href="" class="media-link-list link">Youtube</a>
+                <a href="" class="media-link-footer link">Youtube</a>
               </li>
             </ul>
           </div>
@@ -287,8 +287,31 @@
       <!-- Контакты -->
       <section class="section-contact">
         <div class="conteiner contact">
-          <div class="contact-left"></div>
+          <div class="contact-left">
+            
+            <form class="form">
+              <h2 class="section-title second">Онлайн-запись</h2>
+              <div class="form-flex">
+                <div class="form-name transform">
+                  <input type="text" name="user-name" id="name" placeholder=" " required>
+                  <label for="name" class="message-text">Имя*</label>
+                </div>
+                <div class="form-tel transform">
+                  <input type="tel" name="user-name" id="tel" placeholder=" " required>
+                  <label for="tel" class="message-text">Телефон*</label>
+                </div>
+              </div>
+              <div class="form-message transform">
+                <textarea name="message" id="message" placeholder=" "></textarea>
+                <label for="message" class="message-text">сообщение</label>
+              </div>
+
+              <button type="submit" class="button next">отправить</button>
+
+            </form>
+          </div>
           <div class="contact-right">
+            <img src="./IMG/icon.svg/bg1.jpg" alt="" class="bacground">
             <h2 class="section-title second">Контакты</h2>
           <address>
             <ul class="list contact-list">
