@@ -151,9 +151,18 @@ button {
     url(../IMG/icon.svg/Slider.jpg);
 }
 .media-list {
-  display: flex;
+  display: block;
+  padding-top: 350px;
+  
+  
+}
+.media-link {
   transform:  rotate(-90deg);
   
+
+}
+.media-list .media-link {
+  margin-right: 40px;
 }
 .media-link:not(:last-child) {
   margin-right: 40px;
